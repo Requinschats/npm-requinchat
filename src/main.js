@@ -20,6 +20,6 @@ if (GlobalVue) {
     GlobalVue.use(plugin);
 }
 
-breadCrump.install = install;
+cv.install = install;
 
-export default breadCrump;
+export default cv;
