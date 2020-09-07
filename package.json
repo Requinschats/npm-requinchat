@@ -1,0 +1,19 @@
+{
+  "name": "olivier-fradette-roy",
+  "version": "1.0.0",
+  "description": "My Profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Requinschats/npm-requinchat.git"
+  },
+  "author": "Olivier Fradette-Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Requinschats/npm-requinchat/issues"
+  },
+  "homepage": "https://github.com/Requinschats/npm-requinchat#readme"
+}
