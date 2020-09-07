@@ -12,7 +12,7 @@
 
 <script>
     export default {
-        name: 'breadCrump',
+        name: 'cv',
         props: {
             items: {
                 type: Array,

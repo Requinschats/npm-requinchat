@@ -5,7 +5,7 @@ module.exports = {
     entry: path.resolve(__dirname + './../src/main.js'),
     output: {
         path: path.resolve(__dirname + './../dist'),
-        filename: 'v-breadcrumps.js'
+        filename: 'v-cv.js'
     },
     module: {
         rules: [{

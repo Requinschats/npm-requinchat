@@ -1,9 +1,9 @@
-import breadCrump from "./breadcrumb.vue";
+import cv from "./cv.vue";
 
 function install(Vue) {
     if (install.installed) return;
     install.installed = true;
-    Vue.component("v-breadcrump", breadCrump);
+    Vue.component("v-cv", cv);
 }
 
 const plugin = {

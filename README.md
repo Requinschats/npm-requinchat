@@ -5,6 +5,6 @@
 ## Project setup
 ```
 import Vue from "vue";
-import breadCrump from 'olivier-fradette-roy'
-Vue.use(breadCrump);
+import cv from 'olivier-fradette-roy'
+Vue.use(cv);
 ```
