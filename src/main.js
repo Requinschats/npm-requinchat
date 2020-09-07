@@ -1,4 +1,4 @@
-import breadCrump from "./breadcrump.vue";
+import breadCrump from "./breadcrumb";
 
 function install(Vue) {
     if (install.installed) return;

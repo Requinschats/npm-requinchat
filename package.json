@@ -1,6 +1,6 @@
 {
   "name": "olivier-fradette-roy",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "My Profile",
   "author": "Olivier Fradette-Roy",
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "vue-cli-service lint",
     "postinstall": "node postinstall.js"
   },
-  "main": "index.js",
+  "main": "main.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
