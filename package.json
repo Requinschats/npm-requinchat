@@ -1,15 +1,15 @@
 {
   "name": "olivier-fradette-roy",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "My Profile",
   "author": "Olivier Fradette-Roy",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "webpack --config config/webpack.config.js",
     "lint": "vue-cli-service lint",
     "postinstall": "node postinstall.js"
   },
-  "main": "main.js",
+  "main": "src/main.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
