@@ -4,7 +4,7 @@
   "description": "My Profile",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "node postinstall.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Requinschats/npm-requinchat/issues"
   },
-  "homepage": "https://github.com/Requinschats/npm-requinchat#readme"
+  "homepage": "https://github.com/Requinschats/npm-requinchat#readme",
+  "keywords": [
+    "requinchat"
+  ]
 }
