@@ -1,7 +1,7 @@
 <template>
     <div style="width: 100%">
         <v-row justify="center">
-            <img src="./assets/resume.png"/>
+            <v-img src="./assets/resume.png"/>
         </v-row>
     </div>
 </template>
