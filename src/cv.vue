@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Test</h1>
+        <h1>Olivier Fradette-Roy</h1>
         <ul class="breadcrumb">
             <li v-for="item in items" :key="item.href">
                 <a v-show="item.href && item.href.length>0 && !item.active" :href="item.href">{{item.text}}</a>

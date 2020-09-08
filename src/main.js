@@ -1,5 +1,4 @@
 import cv from "./cv.vue";
-
 function install(Vue) {
     if (install.installed) return;
     install.installed = true;
@@ -21,5 +20,11 @@ if (GlobalVue) {
 }
 
 cv.install = install;
+
+import Vue from "vue";
+Vue.config.productionTip = false;
+new Vue({
+    render: h => h(cv)
+}).$mount("#app");
 
 export default cv;

@@ -4,7 +4,7 @@
   "description": "My Profile",
   "author": "Olivier Fradette-Roy",
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve  --open ./src/main.js",
     "build": "webpack --config config/webpack.config.js",
     "lint": "vue-cli-service lint",
     "postinstall": "node postinstall.js"
