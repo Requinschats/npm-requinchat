@@ -4,6 +4,9 @@
 
 ## Project setup
 ```
+$vue add vuetify
+```
+```
 import Vue from "vue";
 import cv from 'olivier-fradette-roy'
 Vue.use(cv);
